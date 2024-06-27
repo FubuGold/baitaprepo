@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.image {
+    width: 285px;
+    height: 301px;
+    position: relative;
+}
+
+.content {
+    width: 285px;
+    height: 446px;
+    gap: 0px;
+    opacity: 0px;    
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.6s;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.content:hover {
+    opacity: 1;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#addtocart{
+    width: 202px;
+    height: 48px;
+    left: 25px;
+    gap: 0px;
+    opacity: 0px;    
+    background-color: white;  
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #B88E2F;
+    text-align: center;      
+    border: none;
+}
+#hoveritem{
+    display: flex;
+    column-gap: 10px;
+}
+.content{
+    padding: 30% 10%;
+}
+#share{
+   display: flex; 
+}
+#compare{
+    display: flex;
+}
+#like{
+    display: flex;
+}
+.aboutproducts { 
+    background-color: #F4F5F7;
+    ;
+    align-items: center;
+    justify-content: center;
+    width: 285px;
+    height: 145px;
+    top: 301px;
+    gap: 0px;
+    opacity: 0px;
+    padding: 25px 25px;
+}
+.giamgia{
+    background-image: -moz-element(c);
+}
+.circle{
+    width: 48px;
+    height: 48px;
+    top: 65px;
+    left: 213px;
+    gap: 0px;
+    opacity: 0px;
+    background: #E97171;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+.giamgia{
+    position:absolute;
+    width: inherit;
+    height: auto;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+#showmore{
+    background: white;
+    border: 1.5px solid #B88E2F;
+    width: 245px;
+    height: 48px;
+    top: 2646px;
+    left: 598px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #B88E2F;
+    
+}
+.tenlon{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: left;
+    width: 123px;
+    height: 29px;
+    top: 317px;
+    left: 16px;
+    gap: 0px;
+    opacity: 0px;
+}
+.loaisanpham{
+    width: 138px;
+    height: 24px;
+    top: 354px;
+    left: 16px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #898989;
+}
+.giasaugiam{
+    width: 131px;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;    
+}
+.giatruocgiam{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #B0B0B0;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.btns {
+
+}
+.btns {
+    position: absolute;
+    display: flex;
+    color: grey;
+    font-size: 17px;
+}
+.btn i:hover {
+    cursor: pointer;
+}
+#heart { 
+    position: relative; 
+    width: 100px; 
+    height: 90px; 
+} 
+#parent{position: relative;}
+.red{
+    width: 1440px;
+    height: 1007.93px;
+    top: -106.7px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.loaisanpham{
+    display: inline;
+}
+#new{
+    background: #2EC1AC;
+}
+.tatcaproduct{
+    display: flex;
+    column-gap: 30px;
+}
+.circle1{
+    width: 48px;
+    height: 48px;
+    top: 65px;
+    left: 213px;
+    gap: 0px;
+    opacity: 0px;
+    background: #E97171;
+    border-radius: 50%;
+    position: relative;
+    z-index: -1;
+}
+#showmore{
+    cursor: pointer;
+    
+}
+.tonghop .tatcaproduct .product{
+    display: none;
+}
+.tonghop .tatcaproduct .product :nth-child(1),
+.tonghop .tatcaproduct .product :nth-child(2){
+    display: inline-block;
+}
