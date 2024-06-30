@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.flex1{
+  display: inline-flex;
+}
+
+#homeshopaboutcart{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: black;
+}
+a{
+  font-weight: 500;
+  color: black;
+  padding: 2rem;
+
+}
+.noidung{
+  width: 1440px;
+  height: 316px;
+  top: 100px;
+  gap: 0px;
+  opacity: 0px;    
+  align-items: center;
+  justify-content: center;
+  background: url(background\(contact\).png) no-repeat center / cover;
+  text-align: center;
+  padding: 25px 30px;
+}
+#Furniro{
+  width: 130px;
+  height: 41px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41.45px;
+  text-align: left;
+  
+}
+#contact{
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  text-align: center;
+      
+}
+#homecontact{
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+a{
+    font-weight: 500;
+    color: black;
+    padding: 2rem;
+
+}
+
+.advert { 
+    background-color: #FAF3EA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: Fixed (1440px)px;
+    height: Fixed (270px)px;
+    top: 2699px;
+    left: -3px;
+    padding: 100px 0px 100px 0px;
+    gap: 0px;
+    justify: space-between;
+    opacity: 0px;
+}
+.bigname{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-align: left;
+    width: 157px;
+    height: 38px;
+    gap: 0px;
+    opacity: 0px;      
+}
+.footnote{
+    width: 267px;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #898989;        
+}
+.iconvachu{
+    display: inline-flex;
+    
+}
+#highquality {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+#warranty {
+    grid-column: 2 / 5;
+    grid-row: 1 / 3;
+  }
+#freeshipping {
+    grid-column: 1;
+    grid-row: 2 / 5;
+}
+.support {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+.one {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+}
+.three {
+  grid-column: 1;
+  grid-row: 2 / 5;
+}
+.four {
+  grid-column: 3;
+  grid-row: 3;
+}
+.xam{
+    color: #9F9F9F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    
+}
+
+.input-box {
+    outline: none;
+    border: none;
+    width: 286px;
+    height: 24px;
+    top: 127px;
+    left: 947.01px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border-bottom: 1.5px solid #000000 ;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    display: inline-block;
+}   
+#subscribe{
+    width: 75px;
+    height: 21px;
+    top: 127px;
+    left: 1140.01px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    background-color: white;
+    border: none;
+    border-bottom:1.5px solid #000000 ;
+}
+a{
+    font-weight: 500;
+    color: black;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.caucuoi{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+#tencuoi{
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;  
+}
+.mot{
+  width: 60px;
+  height: 60px;
+  top: 30px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  border: none;
+  background-color: #B88E2F;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-align: center;  
+  color: white;
+}
+.hai{
+  width: 60px;
+  height: 60px;
+  top: 30px;
+  left: 98px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  background-color: #F9F1E7;
+  border: none;
+}
+.sotrang{
+  display: flex;
+  justify-items: center;
+  align-items:center ;
+  width: Hug (392px)px;
+  height: 170px;
+  padding: 30px 0px 0px 0px;
+  gap: 38px;
+  opacity: 0px;
+  padding: 25px 300px;
+}
+.myBtn{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justified;
+  background: none;
+  border: none; 
+  border-bottom:  1px solid #000000;
+}
+.myBtn1{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justified;
+  background: none;
+  border: none; 
+  border-bottom:  1px solid #000000;
+}
+.myBtn2{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justified;
+  background: none;
+  border: none; 
+  border-bottom:  1px solid #000000;
+}
+
+.chuthich{
+  display: inline-flex;
+  align-items: center;
+  justify-items: center;
+}
+.footnotebaibao{
+  display: flex;
+  column-gap: 30px;
+}
+.baidang{
+  display: flex;
+  justify-items: center;
+  align-items: left;
+  column-gap: 10px;
+  
+}
+.tatcabaidang{
+  width: 252px;
+  height: 618px;
+  top: 1094px;
+  left: 1023px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  
+}
+.bentrai{
+  height: 2490px;
+  top: 522px;
+  left: 97px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  
+}
+.xam1{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #9F9F9F;  
+}
+.tuade{
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  
+}
+.headline{
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: left;
+  
+}
+.linkvao{
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #000000;
+
+}
+.trangblog{
+  display: flex;
+}
