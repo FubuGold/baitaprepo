@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.flex1{
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
+}
+
+#homeshopaboutcart{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: black;
+}
+a{
+    font-weight: 500;
+    color: black;
+    padding: 2rem;
+
+}
+.noidung{
+    width: 1440px;
+    height: 316px;
+    top: 100px;
+    gap: 0px;
+    opacity: 0px;    
+    align-items: center;
+    justify-content: center;
+    background: url(background\(contact\).png) no-repeat center / cover;
+    text-align: center;
+    padding: 25px 30px;
+}
+#Furniro{
+    width: 130px;
+    height: 41px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41.45px;
+    text-align: left;
+    
+}
+#contact{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    text-align: center;
+        
+}
+#homecontact{
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+#getintouchwithus{
+    height: 54PX;
+    top: 1610px;
+    left: 1000px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: center;
+
+}
+#formorein4{
+    height: 10px;
+    top: 1610px;
+    left: 588px;
+    gap: 0px;
+    opacity: 0px;    
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;   
+    text-align: center;
+    color:  #666666;
+;        
+}
+.hihi{
+    display: flex;
+    justify-items:center ;
+    align-items: center;
+}
+.haha{
+    display: flex;
+    justify-items:center ;
+    align-items: center;
+}
+.hoho{
+    display: flex;
+    justify-items:center ;
+    align-items: center;
+}
+.gioithieu{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+#tenlon{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    
+}
+.trcdien{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    
+}
+.don input{
+    width: 528.75px;
+    height: 75px;
+    top: 959px;
+    left: 668.25px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #9F9F9F;
+}
+.input-box input{
+    width: 527px;
+    height: 120px;
+    top: 1273px;
+    left: 667px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    
+}
+:placeholder-shown{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+#submitbutton{
+    width: 237px;
+    height: 55px;
+    top: 1442px;
+    left: 673px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color:#B88E2F;
+    border: 1px solid #B88E2F;
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;    
+}
+.gioithieuvadon{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    column-gap: 30px;
+    padding: 25px 250px;
+}
+
+
+
+.advert { 
+    background-color: #FAF3EA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: Fixed (1440px)px;
+    height: Fixed (270px)px;
+    top: 2699px;
+    left: -3px;
+    padding: 100px 0px 100px 0px;
+    gap: 0px;
+    justify: space-between;
+    opacity: 0px;
+}
+.bigname{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-align: left;
+    width: 157px;
+    height: 38px;
+    gap: 0px;
+    opacity: 0px;      
+}
+.footnote{
+    width: 267px;
+    height: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #898989;        
+}
+.iconvachu{
+    display: inline-flex;
+    
+}
+#highquality {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+#warranty {
+    grid-column: 2 / 5;
+    grid-row: 1 / 3;
+  }
+#freeshipping {
+    grid-column: 1;
+    grid-row: 2 / 5;
+}
+.support {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+.one {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+}
+.three {
+  grid-column: 1;
+  grid-row: 2 / 5;
+}
+.four {
+  grid-column: 3;
+  grid-row: 3;
+}
+.xam{
+    color: #9F9F9F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    
+}
+
+.input-box {
+    outline: none;
+    border: none;
+    width: 286px;
+    height: 24px;
+    top: 127px;
+    left: 947.01px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border-bottom: 1.5px solid #000000 ;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    display: inline-block;
+}   
+#subscribe{
+    width: 75px;
+    height: 21px;
+    top: 127px;
+    left: 1140.01px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    background-color: white;
+    border: none;
+    border-bottom:1.5px solid #000000 ;
+}
+a{
+    font-weight: 500;
+    color: black;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.caucuoi{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
