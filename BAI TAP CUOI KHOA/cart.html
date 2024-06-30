@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce Website</title>
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+ <div class="flex1">
+
+    <img src="image/logo.png" alt="logo furniro" width="50 px" height="32 px">   
+    <h2 id="Furniro">Furniro</h2>
+
+    <div class="giua" id="homeshopaboutcart">
+        <a href="home.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="blog.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="phai">
+        <img src="image/person(home).png" alt="person" width="23.33px" height="18.67px">
+        <img src="image/search(home).png" alt="search" width="22.17px" height="22.17px">
+        <img src="image/heart(home).png" alt="heart" width="23.33px" height="20.81px">
+        <a href="cart.html"><img src="image/cart(home).png" alt="cart" width="24.53px" height="22.06px"></a>
+    </div>
+</div>
+<div class="noidung">
+    <img src="image/logo.png" alt="logo" width="50px" height="32px">
+    <h1 id="contact">Cart</h1>
+    <div id="contacthome">
+        <p id="homecontact"> <b>Home > </b>Cart </p>
+    </div>
+</div>
+
+<div class="hang">
+    <div class="spham">
+        <div class="tren">
+            <p>Product</p>
+            <p>Price</p>
+            <p>Quantity</p>
+            <p>Subtotal</p>
+        </div>
+        <div class="duoi">
+            <img src="image/product(cart).png" alt="product" width="108 px" height="105 px">
+            <p class="grey">Asgaard sofa</p>
+            <p class="grey">Rs. 250,000.00</p>
+            <input type="number" placeholder="1" id="soluong">
+            <p class="notgrey">Rs. 250,000.00</p>
+            <img src="image/thung rac (cart).png" alt="thung rac" width="21 px" height="21.88 px" onclick="location.href='cart.html'">
+        </div>
+    </div>
+
+    <div class="bill">
+        <h1 class="carttotals">Cart Totals</h1>
+        <div class="subtotal">
+            <p class="notgrey">Subtotal</p>
+            <p class="grey">Rs. 250,000.00</p>
+        </div>
+        <div class="total">
+            <p class="notgrey">Total     </p>
+            <p class="yellow">Rs. 250,000.00</p>
+        </div>
+        <button id="checkout" onclick="location.href='cart.html'">Checkout</button>
+
+    </div> 
+</div>
+<div class="advert">
+    <div id="highquality">
+        <div class="iconvachu">
+            <img src="image/trophy 1.png" alt="trophy" width="52.77 px" height="60 px">
+            <h2 class="bigname">High quality</h2>
+        </div>
+        <p class="footnote">crafted from top material</p>
+    </div>
+    <div id="warranty">
+        <Div class="iconvachu">
+            <img src="image/guarantee.png" alt="guarantee" width="60 px" height="58.13 px">
+            <h2 class="bigname">Warranty Protection</h2>
+        </Div>
+        <p class="footnote">Over 2 years</p>
+    </div>
+    <div id="freeshipping">
+        <div class="iconvachu">
+            <img src="image/shipping.png" alt="shipping" width="60 px" height="60 px">
+            <h2 class="bigname">Free Shipping</h2>
+        </div>
+        <p class="footnote">Order over 150 $</p>
+    </div>
+    <div id="support">
+        <div class="iconvachu">
+            <img src="image/customer-support.png" alt="customer-support" width="52.94 px" height="60 px">
+            <h2 class="bigname">24/7 Support</h2>
+        </div>
+        <p class="footnote">Dedicated support</p>
+    </div>
+</div>
+
+<hr>
+<div class="grid">
+    <div id="one">
+        <h3 id="tencuoi">Furniro.</h3>
+        <p class="xam">400 University Drive Suite 200 Coral Gables,</p> 
+        <p class="xam">FL 33134 USA</p>
+    </div>
+    <div id="two">
+        <p class="xam">Links</p> <br>
+        <a href="home.html"><b>Home</b></a> <br>
+        <a href="shop.html"><b>Shop</b></a> <br>
+        <a href="blog.html"><b>About</b></a> <br>
+        <a href="contact.html"><b>Contact</b></a> 
+    </div>
+    
+    <div id="three">
+        <p class="xam">Help</p> <br>
+        <a href="#"><b>Payment Options</b></a> <br>
+        <a href="#."><b>Returns</b></a> <br>
+        <a href="#"><b>Privacy Policies</b></a> <br>
+    </div>
+
+    <div id="four">
+        <p class="xam">Newsletter</p>
+        <form action="#" >
+            <input class="input-box" type="email" placeholder="Enter Your Email Address">
+            <button id="subscribe" onclick="location.href='cart.html'">SUBSCRIBE</button>
+        </form>
+    </div>
+
+</div>
+<hr>
+<p class="caucuoi">2023 furino. All rights reverved</p>
+</body>
+</html>

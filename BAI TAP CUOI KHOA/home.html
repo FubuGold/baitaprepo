@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce Website</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<div class="flex1">
+
+    <img src="image/logo.png" alt="logo furniro" width="50 px" height="32 px">   
+    <h2 id="Furniro">Furniro</h2>
+
+    <div class="giua" id="homeshopaboutcart">
+        <a href="home.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="blog.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="phai">
+        <img src="image/person(home).png" alt="person" width="23.33px" height="18.67px">
+        <img src="image/search(home).png" alt="search" width="22.17px" height="22.17px">
+        <img src="image/heart(home).png" alt="heart" width="23.33px" height="20.81px">
+        <a href="cart.html"><img src="image/cart(home).png" alt="cart" width="24.53px" height="22.06px"></a>
+    </div>
+</div>
+
+
+<section>
+    <div class="container">
+        <div class="left"></div>
+        <div class="right">
+            <div class="noidung">
+                <p id="newarrival"><b>New Arrival</b></p>
+                <p id="yellow">Discover Our New Collection</p>
+                <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                <button id="buynow" onclick="location.href='home.html'">BUY NOW</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="gioithieu">
+        <h3 id="browsetherange">Browse The Range</h3>
+        <p id="lorembrowse">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</div>
+<div class="browsetherangeitem">
+    <div>
+        <img src="image/dining.png" alt="dining" width="381 px" height="480 px">
+        <p>Dining</p>
+    </div>
+
+    <div>
+        <img src="image/living.png" alt="living" width="381 px" height="480 px">
+        <p>Living</p>
+    </div>
+
+    <div>
+        <img src="image/bedroom.png" alt="bedroom" width="381 px" height="480 px">
+        <p>Bedroom</p>
+    </div>
+</div>
+<p id="ourproducts">Our Products</p>
+<div class="tatcaproduct">
+    <div class="product">
+        <div class="circle">
+            <div class="giamgia">
+                <p >-30%</p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="image">
+                <img src="image/Slytherine.png" alt="Slytherine" width="285 px" height="301 px"> 
+                <div class="content">
+                    <button id="addtocart" onclick="location.href='cart.html'">Add to cart</button><br>
+                    <div id="hoveritem">
+                        <div id="share">
+                            <img src="image/share(home).png" alt="share" width="16px" height="16px"> 
+                            <p>Share</p>
+                        </div>
+                        <div id="compare">
+                            <img src="image/compare(home).png" alt="compare" width="16px" height="16px">
+                            <p>Compare</p>
+                        </div>
+                        <div id="like">
+                            <button onclick="Toggle1()" id="btnh1" class="btns"><i class="fa-solid fa-heart"></i></button> 
+
+                            <script>
+                                    var btnvar1 = document.getElementById('btnh1');
+                        
+                                    function Toggle1() {
+                                        if (btnvar1.style.color == "red") {
+                                            btnvar1.style.color = "grey";
+                                        } else {
+                                            btnvar1.style.color = "red";
+                                        }
+                                    }
+                            </script>
+                            <p>Like</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+
+        <div class="aboutproducts">
+            <h3 class="tenlon">Slytherine</h3>
+            <p class="loaisanpham">Stylish cafe chair</p>
+            <p><b class="giasaugiam">Rp 2.500.000</b><del class="giatruocgiam">Rp 3.500.000</del></p> 
+        </div>
+    </div>
+    
+    <div class="product">
+        <div class="circle1">
+            <div class="giamgia">
+                <p >-30%</p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="image">
+                <img src="image/Leviosa.png" alt="Slytherine" width="285 px" height="301 px"> 
+                <div class="content">
+                    <button id="addtocart" onclick="location.href='cart.html'">Add to cart</button><br>
+                    <div id="hoveritem">
+                        <div id="share">
+                            <img src="image/share(home).png" alt="share" width="16px" height="16px"> 
+                            <p>Share</p>
+                        </div>
+                        <div id="compare">
+                            <img src="image/compare(home).png" alt="compare" width="16px" height="16px">
+                            <p>Compare</p>
+                        </div>
+                        <div id="like">
+                            <button onclick="Toggle2()" id="btnh2" class="btns"><i class="fa-solid fa-heart"></i></button> 
+
+                            <script>
+                                    var btnvar2 = document.getElementById('btnh2');
+                        
+                                    function Toggle2() {
+                                        if (btnvar2.style.color == "red") {
+                                            btnvar2.style.color = "grey";
+                                        } else {
+                                            btnvar2.style.color = "red";
+                                        }
+                                    }
+                            </script>
+                            <p>Like</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+
+        <div class="aboutproducts">
+            <h3 class="tenlon">Leviosa</h3>
+            <p class="loaisanpham">Stylish cafe chair</p>
+            <p><b class="giasaugiam">Rp 2.500.000</b></p> 
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="circle">
+            <div class="giamgia">
+                <p >-50%</p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="image">
+                <img src="image/Lolito.png" alt="Slytherine" width="285 px" height="301 px"> 
+                <div class="content">
+                    <button id="addtocart" onclick="location.href='cart.html'">Add to cart</button><br>
+                    <div id="hoveritem">
+                        <div id="share">
+                            <img src="image/share(home).png" alt="share" width="16px" height="16px"> 
+                            <p>Share</p>
+                        </div>
+                        <div id="compare">
+                            <img src="image/compare(home).png" alt="compare" width="16px" height="16px">
+                            <p>Compare</p>
+                        </div>
+                        <div id="like">
+                            <button onclick="Toggle3()" id="btnh3" class="btns"><i class="fa-solid fa-heart"></i></button> 
+
+                            <script>
+                                    var btnvar3 = document.getElementById('btnh3');
+                        
+                                    function Toggle3() {
+                                        if (btnvar3.style.color == "red") {
+                                            btnvar3.style.color = "grey";
+                                        } else {
+                                            btnvar3.style.color = "red";
+                                        }
+                                    }
+                            </script>
+                            <p>Like</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+
+        <div class="aboutproducts">
+            <h3 class="tenlon">Lolito</h3>
+            <p class="loaisanpham">Luxury big sofa</p>
+            <p><b class="giasaugiam">Rp 7.000.000</b></p> 
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="circle" id="new">
+            <div class="giamgia">
+                <p >New</p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="image">
+                <img src="image/Respira.png" alt="Slytherine" width="285 px" height="301 px"> 
+                <div class="content">
+                    <button id="addtocart" onclick="location.href='cart.html'">Add to cart</button><br>
+                    <div id="hoveritem">
+                        <div id="share">
+                            <img src="image/share(home).png" alt="share" width="16px" height="16px"> 
+                            <p>Share</p>
+                        </div>
+                        <div id="compare">
+                            <img src="image/compare(home).png" alt="compare" width="16px" height="16px">
+                            <p>Compare</p>
+                        </div>
+                        <div id="like">
+                            <button onclick="Toggle4()" id="btnh4" class="btns"><i class="fa-solid fa-heart"></i></button> 
+
+                            <script>
+                                    var btnvar4 = document.getElementById('btnh4');
+                        
+                                    function Toggle4() {
+                                        if (btnvar4.style.color == "red") {
+                                            btnvar4.style.color = "grey";
+                                        } else {
+                                            btnvar4.style.color = "red";
+                                        }
+                                    }
+                            </script>
+                            <p>Like</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+        <div class="aboutproducts">
+            <h3 class="tenlon">Respira</h3>
+            <p class="loaisanpham">Outdoor bar table and stool</p>
+            <p><b class="giasaugiam">Rp 500.000</b></p> 
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+<div class="tatcaproduct">
+    <div class="product">
+        <div class="circle">
+            <div class="giamgia">
+                <p >-30%</p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="image">
+                <img src="image/Slytherine.png" alt="Slytherine" width="285 px" height="301 px"> 
+                <div class="content">
+                    <button id="addtocart" onclick="location.href='cart.html'">Add to cart</button><br>
+                    <div id="hoveritem">
+                        <div id="share">
+                            <img src="image/share(home).png" alt="share" width="16px" height="16px"> 
+                            <p>Share</p>
+                        </div>
+                        <div id="compare">
+                            <img src="image/compare(home).png" alt="compare" width="16px" height="16px">
+                            <p>Compare</p>
+                        </div>
+                        <div id="like">
+                            <button onclick="Toggle5()" id="btnh5" class="btns"><i class="fa-solid fa-heart"></i></button> 
+
+                            <script>
+                                    var btnvar5 = document.getElementById('btnh5');
+                        
+                                    function Toggle5() {
+                                        if (btnvar5.style.color == "red") {
+                                            btnvar5.style.color = "grey";
+                                        } else {
+                                            btnvar5.style.color = "red";
+                                        }
+                                    }
+                            </script>
+                            <p>Like</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+
+        <div class="aboutproducts">
+            <h3 class="tenlon">Slytherine</h3>
+            <p class="loaisanpham">Stylish cafe chair</p>
+            <p><b class="giasaugiam">Rp 2.500.000</b><del class="giatruocgiam">Rp 3.500.000</del></p> 
+        </div>
+    </div>
+    
+    <div class="product">
+        <div class="circle1">
+            <div class="giamgia">
+                <p >-30%</p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="image">
+                <img src="image/Leviosa.png" alt="Slytherine" width="285 px" height="301 px"> 
+                <div class="content">
+                    <button id="addtocart" onclick="location.href='cart.html'">Add to cart</button><br>
+                    <div id="hoveritem">
+                        <div id="share">
+                            <img src="image/share(home).png" alt="share" width="16px" height="16px"> 
+                            <p>Share</p>
+                        </div>
+                        <div id="compare">
+                            <img src="image/compare(home).png" alt="compare" width="16px" height="16px">
+                            <p>Compare</p>
+                        </div>
+                        <div id="like">
+                            <button onclick="Toggle6()" id="btnh6" class="btns"><i class="fa-solid fa-heart"></i></button> 
+
+                            <script>
+                                    var btnvar6 = document.getElementById('btnh6');
+                        
+                                    function Toggle6() {
+                                        if (btnvar6.style.color == "red") {
+                                            btnvar6.style.color = "grey";
+                                        } else {
+                                            btnvar6.style.color = "red";
+                                        }
+                                    }
+                            </script>
+                            <p>Like</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+
+        <div class="aboutproducts">
+            <h3 class="tenlon">Leviosa</h3>
+            <p class="loaisanpham">Stylish cafe chair</p>
+            <p><b class="giasaugiam">Rp 2.500.000</b></p> 
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="circle">
+            <div class="giamgia">
+                <p >-50%</p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="image">
+                <img src="image/Lolito.png" alt="Slytherine" width="285 px" height="301 px"> 
+                <div class="content">
+                    <button id="addtocart" onclick="location.href='cart.html'">Add to cart</button><br>
+                    <div id="hoveritem">
+                        <div id="share">
+                            <img src="image/share(home).png" alt="share" width="16px" height="16px"> 
+                            <p>Share</p>
+                        </div>
+                        <div id="compare">
+                            <img src="image/compare(home).png" alt="compare" width="16px" height="16px">
+                            <p>Compare</p>
+                        </div>
+                        <div id="like">
+                            <button onclick="Toggle7()" id="btnh7" class="btns"><i class="fa-solid fa-heart"></i></button> 
+
+                            <script>
+                                    var btnvar7 = document.getElementById('btnh7');
+                        
+                                    function Toggle7() {
+                                        if (btnvar7.style.color == "red") {
+                                            btnvar7.style.color = "grey";
+                                        } else {
+                                            btnvar7.style.color = "red";
+                                        }
+                                    }
+                            </script>
+                            <p>Like</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+
+        <div class="aboutproducts">
+            <h3 class="tenlon">Lolito</h3>
+            <p class="loaisanpham">Luxury big sofa</p>
+            <p><b class="giasaugiam">Rp 7.000.000</b></p> 
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="circle" id="new">
+            <div class="giamgia">
+                <p >New</p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="image">
+                <img src="image/Respira.png" alt="Slytherine" width="285 px" height="301 px"> 
+                <div class="content">
+                    <button id="addtocart" onclick="location.href='cart.html'">Add to cart</button><br>
+                    <div id="hoveritem">
+                        <div id="share">
+                            <img src="image/share(home).png" alt="share" width="16px" height="16px"> 
+                            <p>Share</p>
+                        </div>
+                        <div id="compare">
+                            <img src="image/compare(home).png" alt="compare" width="16px" height="16px">
+                            <p>Compare</p>
+                        </div>
+                        <div id="like">
+                            <button onclick="Toggle8()" id="btnh8" class="btns"><i class="fa-solid fa-heart"></i></button> 
+
+                            <script>
+                                    var btnvar8 = document.getElementById('btnh8');
+                        
+                                    function Toggle8() {
+                                        if (btnvar8.style.color == "red") {
+                                            btnvar8.style.color = "grey";
+                                        } else {
+                                            btnvar8.style.color = "red";
+                                        }
+                                    }
+                            </script>
+                            <p>Like</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+        <div class="aboutproducts">
+            <h3 class="tenlon">Respira</h3>
+            <p class="loaisanpham">Outdoor bar table and stool</p>
+            <p><b class="giasaugiam">Rp 500.000</b></p> 
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+<span id="dots">...</span>
+<span id="more" style="display: none;">
+    <div class="tatcaproduct">
+        <div class="product">
+            <div class="circle">
+                <div class="giamgia">
+                    <p >-30%</p>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="image">
+                    <img src="image/Slytherine.png" alt="Slytherine" width="285 px" height="301 px"> 
+                    <div class="content">
+                        <button id="addtocart" onclick="location.href='cart.html'">Add to cart</button><br>
+                        <div id="hoveritem">
+                            <div id="share">
+                                <img src="image/share(home).png" alt="share" width="16px" height="16px"> 
+                                <p>Share</p>
+                            </div>
+                            <div id="compare">
+                                <img src="image/compare(home).png" alt="compare" width="16px" height="16px">
+                                <p>Compare</p>
+                            </div>
+                            <div id="like">
+                                <button onclick="Toggle9()" id="btnh9" class="btns"><i class="fa-solid fa-heart"></i></button> 
+    
+                                <script>
+                                        var btnvar9 = document.getElementById('btnh9');
+                            
+                                        function Toggle9() {
+                                            if (btnvar9.style.color == "red") {
+                                                btnvar9.style.color = "grey";
+                                            } else {
+                                                btnvar9.style.color = "red";
+                                            }
+                                        }
+                                </script>
+                                <p>Like</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+    
+            <div class="aboutproducts">
+                <h3 class="tenlon">Slytherine</h3>
+                <p class="loaisanpham">Stylish cafe chair</p>
+                <p><b class="giasaugiam">Rp 2.500.000</b><del class="giatruocgiam">Rp 3.500.000</del></p> 
+            </div>
+        </div>
+        
+        <div class="product">
+            <div class="circle1">
+                <div class="giamgia">
+                    <p >-30%</p>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="image">
+                    <img src="image/Leviosa.png" alt="Slytherine" width="285 px" height="301 px"> 
+                    <div class="content">
+                        <button id="addtocart" onclick="location.href='cart.html'">Add to cart</button><br>
+                        <div id="hoveritem">
+                            <div id="share">
+                                <img src="image/share(home).png" alt="share" width="16px" height="16px"> 
+                                <p>Share</p>
+                            </div>
+                            <div id="compare">
+                                <img src="image/compare(home).png" alt="compare" width="16px" height="16px">
+                                <p>Compare</p>
+                            </div>
+                            <div id="like">
+                                <button onclick="Toggle10()" id="btnh10" class="btns"><i class="fa-solid fa-heart"></i></button> 
+    
+                                <script>
+                                        var btnvar10 = document.getElementById('btnh10');
+                            
+                                        function Toggle10() {
+                                            if (btnvar10.style.color == "red") {
+                                                btnvar10.style.color = "grey";
+                                            } else {
+                                                btnvar10.style.color = "red";
+                                            }
+                                        }
+                                </script>
+                                <p>Like</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+    
+            <div class="aboutproducts">
+                <h3 class="tenlon">Leviosa</h3>
+                <p class="loaisanpham">Stylish cafe chair</p>
+                <p><b class="giasaugiam">Rp 2.500.000</b></p> 
+            </div>
+        </div>
+    
+        <div class="product">
+            <div class="circle">
+                <div class="giamgia">
+                    <p >-50%</p>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="image">
+                    <img src="image/Lolito.png" alt="Slytherine" width="285 px" height="301 px"> 
+                    <div class="content">
+                        <button id="addtocart" onclick="location.href='cart.html'">Add to cart</button><br>
+                        <div id="hoveritem">
+                            <div id="share">
+                                <img src="image/share(home).png" alt="share" width="16px" height="16px"> 
+                                <p>Share</p>
+                            </div>
+                            <div id="compare">
+                                <img src="image/compare(home).png" alt="compare" width="16px" height="16px">
+                                <p>Compare</p>
+                            </div>
+                            <div id="like">
+                                <button onclick="Toggle11()" id="btnh11" class="btns"><i class="fa-solid fa-heart"></i></button> 
+    
+                                <script>
+                                        var btnvar11 = document.getElementById('btnh11');
+                            
+                                        function Toggle11() {
+                                            if (btnvar11.style.color == "red") {
+                                                btnvar11.style.color = "grey";
+                                            } else {
+                                                btnvar11.style.color = "red";
+                                            }
+                                        }
+                                </script>
+                                <p>Like</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+    
+            <div class="aboutproducts">
+                <h3 class="tenlon">Lolito</h3>
+                <p class="loaisanpham">Luxury big sofa</p>
+                <p><b class="giasaugiam">Rp 7.000.000</b></p> 
+            </div>
+        </div>
+    
+        <div class="product">
+            <div class="circle" id="new">
+                <div class="giamgia">
+                    <p >New</p>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="image">
+                    <img src="image/Respira.png" alt="Slytherine" width="285 px" height="301 px"> 
+                    <div class="content">
+                        <button id="addtocart" onclick="location.href='cart.html'">Add to cart</button><br>
+                        <div id="hoveritem">
+                            <div id="share">
+                                <img src="image/share(home).png" alt="share" width="16px" height="16px"> 
+                                <p>Share</p>
+                            </div>
+                            <div id="compare">
+                                <img src="image/compare(home).png" alt="compare" width="16px" height="16px">
+                                <p>Compare</p>
+                            </div>
+                            <div id="like">
+                                <button onclick="Toggle12()" id="btnh12" class="btns"><i class="fa-solid fa-heart"></i></button> 
+    
+                                <script>
+                                        var btnvar12 = document.getElementById('btnh12');
+                            
+                                        function Toggle12() {
+                                            if (btnvar12.style.color == "red") {
+                                                btnvar12.style.color = "grey";
+                                            } else {
+                                                btnvar12.style.color = "red";
+                                            }
+                                        }
+                                </script>
+                                <p>Like</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+            <div class="aboutproducts">
+                <h3 class="tenlon">Respira</h3>
+                <p class="loaisanpham">Outdoor bar table and stool</p>
+                <p><b class="giasaugiam">Rp 500.000</b></p> 
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</span>
+<div class="nutshowmore">
+    <button onclick="myFunction()" id="myBtn">Show more</button>
+</div>
+<script>
+function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Show more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Show less";
+      moreText.style.display = "inline";
+    }
+  }
+</script>
+<hr>
+<div class="grid">
+    <div id="one">
+        <h3>Furniro.</h3>
+        <p class="xam">400 University Drive Suite 200 Coral Gables,</p> 
+        <p class="xam">FL 33134 USA</p>
+    </div>
+    <div id="two">
+        <p class="xam">Links</p> <br>
+        <a href="home.html"><b>Home</b></a> <br>
+        <a href="shop.html"><b>Shop</b></a> <br>
+        <a href="blog.html"><b>About</b></a> <br>
+        <a href="contact.html"><b>Contact</b></a> 
+    </div>
+    
+    <div id="three">
+        <p class="xam">Help</p> <br>
+        <a href="#"><b>Payment Options</b></a> <br>
+        <a href="#."><b>Returns</b></a> <br>
+        <a href="#"><b>Privacy Policies</b></a> <br>
+    </div>
+
+    <div id="four">
+        <p class="xam">Newsletter</p>
+        <form action="#" >
+            <input class="input-box" type="email" placeholder="Enter Your Email Address">
+            <button id="subscribe" onclick="location.href='home.html'">SUBSCRIBE</button>
+        </form>
+    </div>
+
+</div>
+<hr>
+<p>2023 furino. All rights reverved</p>
+
+</body>
+</html>
